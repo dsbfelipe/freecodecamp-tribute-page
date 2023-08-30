@@ -11,7 +11,7 @@ Project for *freeCodeCamp* **Responsive Web Design** course
 A tribute page for the kpop group NewJeans using HTML and CSS.
 
 ## Objective
-The objective of this project was to make an app similar to this *<a src="https://tribute-page.freecodecamp.rocks">reference</a>* for a subject of my choosing and passing the test's requirements, practicing what was learned on the second module of the course, like the **CSS Box Model**, **Flexbox** and **Typography**.
+The objective of this project was to make an app similar to "https://tribute-page.freecodecamp.rocks" for a subject of my choosing and passing the test's requirements, practicing what was learned on the second module of the course, like the **CSS Box Model**, **Flexbox** and **Typography**.
 
 <br>
 
