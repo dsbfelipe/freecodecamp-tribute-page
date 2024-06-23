@@ -1,114 +1,240 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Rubik&display=swap");
 html {
-    background-color: rgb(255, 247, 253);
+  background-color: rgb(255, 247, 253);
+  background-image: url(/images/background.svg);
 }
 .header-img {
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 body {
-    margin: 0;
+  margin: 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .illustration {
-    width: 100%;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 2px 2px 8px 1px rgba(116, 116, 116, 0.384);
 }
- header {
-    position: sticky;
-    top: 0;
-    background-color: rgba(255, 247, 253, 0.9);
+header {
+  top: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 #img-div {
-    margin: 0;   
+  margin: 0;
 }
 #img-caption {
-    text-align: right;
-    padding-right: 15px;
-    color: rgba(255, 79, 108, 0.7);
-    font-size: 15px;
-    font-family: 'Rubik', sans-serif;
+  text-align: right;
+  padding-right: 15px;
+  color: rgba(255, 79, 108, 0.7);
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  margin-top: 8px;
 }
 fieldset {
- border: none;
- padding-top: 15px;
+  border: none;
+  padding-top: 15px;
+  font-size: 18px;
+  margin-top: 56px;
 }
+
+.fifty {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h2 {
-    color: white;
-    text-align: center;
-    border-radius: 15px;
-    font-family: 'Rubik', sans-serif;
-    background-color: rgba(255, 79, 108, 0.4);
-    width: 50%;
-    margin: 30px auto;
+  color: rgba(255, 79, 108, 0.4);
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Rubik", sans-serif;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.144);
+  border: 1px solid white;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 3px solid rgba(255, 79, 108, 0.4);
+  background-color: white;
 }
-h3 {
-    margin-top: 35px;
-    color: rgb(255, 79, 108);
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
+
+.members-head {
+  margin-top: 256px;
 }
+
 p {
-    text-align: justify;
-    text-justify: inter-word;
-    padding: 0 40px;
-    text-indent: 40px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: rgb(44, 44, 44);
-    margin: 8px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(44, 44, 44);
+  margin: 8px;
 }
+
 .pink {
-    color: rgba(255, 79, 108, 0.8);
+  color: rgba(255, 79, 108, 0.8);
 }
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 .line {
-    width: 70%;
-    border: 1px solid rgba(255, 79, 108, 0.4);
-    margin: 0 auto;
-    margin-top: 30px;
-    padding: 0;
+  width: 70%;
+  border: 1px solid rgba(255, 79, 108, 0.4);
+  margin: 0 auto;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  padding: 0;
 }
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-div {
-    margin-top: -20px;
-    border-radius: 30px;
-    padding: 10px 50px;
-    display: flex;
-    justify-content: space-around;
-}
-figure img[class="small"]{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 60%;
-    border-left: 8px solid rgba(255, 79, 108, 0.6);
-    border-bottom: 5px solid rgba(255, 79, 108, 0.6);
-    border-top: 1px solid rgba(255, 79, 108, 0.6);
-    border-right: 2px solid rgba(255, 79, 108, 0.6);
-}
+
 .names {
-    color: rgb(61, 61, 61);
-    text-align: center;
-    padding-top: 10px;
-    font-family: 'Roboto Condensed', sans-serif;
+  color: rgb(61, 61, 61);
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 .foot {
-    text-align: center;
-    color: rgb(85, 85, 85);
+  text-align: center;
+  color: rgb(85, 85, 85);
 }
 a {
-    color: rgba(255, 79, 108, 0.8);
+  color: rgba(255, 79, 108, 0.8);
 }
 footer {
-    margin-top: 20px;
-    width: 100%;
-    height: 19px;
-    background-color: rgba(255, 79, 108, 0.5);
-    color: white;
-    text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  height: 19px;
+  padding-top: 4px;
+  background-color: rgba(255, 79, 108, 0.5);
+  color: white;
+  text-align: center;
+}
+
+.member-pic {
+  width: 50%;
+  border-radius: 32px;
+}
+
+.member:hover {
+  transform: scale(110%);
+}
+
+.member {
+  display: flex;
+  padding: 96px 24px;
+
+  justify-content: center;
+  margin-top: 64px;
+  margin: 0;
+  transition: ease 0.5s;
+}
+
+#members-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  text-align: justify;
+  padding: 24px;
+  border-radius: 32px;
+  min-width: 30%;
+  align-self: flex-end;
+  font-size: 18px;
+  background-color: #ffffff62;
+}
+
+.minji {
+  border: 3px solid #99ccff;
+}
+
+.hanni {
+  border: 3px solid #ff99cc;
+}
+
+.danielle {
+  border: 3px solid #ffff99;
+}
+
+.haerin {
+  border: 3px solid #99cc00;
+}
+
+.hyein {
+  border: 3px solid #cc99ff;
+}
+
+.member:first-child {
+  padding-top: 64px;
+  margin-top: 24px;
+}
+
+.signature {
+  width: 80%;
+  align-self: flex-end;
+}
+
+.info-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fix {
+  align-self: flex-start;
+}
+
+.ppg {
+  position: absolute;
+  width: 30rem;
+}
+
+.haerin-ppg {
+  transform: translateY(30rem) translateX(-28rem) rotate(-10deg);
+}
+
+.hyein-ppg {
+  transform: translateY(8rem) translateX(24rem);
+}
+
+.danielle-ppg {
+  transform: translateY(21rem) translateX(27rem) rotate(-18deg);
+}
+
+.hanni-ppg {
+  transform: translateY(21rem) translateX(-29rem) rotate(-5deg);
+}
+
+.minji-ppg {
+  transform: translateY(30rem) translateX(25rem) rotate(10deg);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 79, 108, 0.493);
+}
+
+.nj-stk {
+  transform: translateY(-17rem) rotate(-10deg);
+}
+
+.group-stk {
+  transform: translateY(-23rem) translateX(25.5rem) rotate(0);
+  width: 20rem;
 }
