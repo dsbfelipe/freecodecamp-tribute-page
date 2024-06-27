@@ -11,9 +11,16 @@ Project for _freeCodeCamp_ **Responsive Web Design** course
 
 A tribute page for the kpop group NewJeans using HTML and CSS.
 
-## Objective
+## Project Overview
 
 The objective of this project was to make an app similar to "https://tribute-page.freecodecamp.rocks" for a subject of my choosing and passing the test's requirements, practicing what was learned on the second module of the course, like the **CSS Box Model**, **Flexbox** and **Typography**.
+
+<br>
+
+![Project's screenshot](images/screenshot.png)
+_<p align="right">Project's screenshot</p>_
+
+<br>
 
 ### **Acknowledgments**
 
@@ -30,8 +37,3 @@ I've got the stickers images from the https://girlsprintinghouse.com/ website an
 
   - **Solution:** I actually left it as it was
   - **Reminder for the next project:** Do it the quicker way next time
-
-<br>
-
-![Project's screenshot](images/screenshot.png)
-_<p align="right">Project's screenshot</p>_
