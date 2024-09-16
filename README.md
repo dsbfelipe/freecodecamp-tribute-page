@@ -55,7 +55,7 @@ The primary objective of this project was to create a tribute page that effectiv
 
 ## 💡 **Acknowledgments**
 
-- freeCodeCamp: For providing the inspiration and guidelines for this project.
+- freeCodeCamp: For providing the guidelines and user stories for this project.
 
 - <a href="https://girlsprintinghouse.com/">Girls Printing House</a>: For the stickers images used in the project.
 
