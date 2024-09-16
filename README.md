@@ -23,19 +23,20 @@ This Tribute Page project was created as a certification requirement for the Res
 The primary objective of this project was to create a tribute page that effectively showcases the chosen subject through a variety of HTML and CSS elements. This involved building a tribute page with functional elements similar to those found in the freeCodeCamp Tribute Page. For this project, I selected NewJeans as the subject, highlighting their impact and contributions. The design and presentation choices, including the layout and styling, were tailored to reflect the unique aspects of NewJeans and present them in an engaging and visually appealing manner.
 
 ## 🔧 Features
-- **Main Element**: Contains all other elements with an id of main.
 
-- **Title**: An h1 element with the id title describing the subject of the tribute page.
+- **Main Element**: Contains all other elements with an id of `main`.
 
-- **Image Container**: A div element with the id img-div that includes:
+- **Title**: An `h1` element with the id `title` describing the subject of the tribute page.
 
-  - An img element with the id image for displaying the image.
+- **Image Container**: A `div` element with the id `img-div` that includes:
 
-  - An element with the id img-caption providing a description of the image.
+  - An `img` element with the id `image` for displaying the image.
 
-- **Tribute Information**: An element with the id tribute-info containing textual content about the subject.
+  - An element with the id `img-caption` providing a description of the image.
 
-- **External Link**: An a element with the id tribute-link linking to additional information about the subject, with target="_blank" to open in a new tab.
+- **Tribute Information**: An element with the id `tribute-info` containing textual content about the subject.
+
+- **External Link**: An `a` element with the id `tribute-link` linking to additional information about the subject, with `target="_blank"` to open in a new tab.
 
 ## 📖 Learnings
 
